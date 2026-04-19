@@ -5,6 +5,7 @@ pre-commit:
       priority: 1
       glob: "*.{js,jsx,ts,tsx,json,md,css,scss}"
       run: pnpm prettier --write {staged_files}
+      stage_fixed: true
 
     eslint:
       priority: 2
