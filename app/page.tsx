@@ -1,11 +1,11 @@
 "use client";
 
-import type { Metadata } from "next";
+// import type { Metadata } from "next";
 import { FormEvent, useEffect, useMemo, useState } from "react";
 
-export const metadata: Metadata = {
-  title: "Issues",
-};
+// export const metadata: Metadata = {
+//   title: "Issues",
+// };
 
 type IssueStatus = "open" | "closed";
 
@@ -37,7 +37,7 @@ const SEED_ISSUES: Issue[] = [
     description:
       "Close animation waits for network response. It should close immediately and sync in background.",
     labels: ["bug"],
-    author: "suzuki",
+    author: "sato",
     status: "open",
     createdAt: "2026-04-20T01:12:00.000Z",
     updatedAt: "2026-04-20T01:12:00.000Z",
