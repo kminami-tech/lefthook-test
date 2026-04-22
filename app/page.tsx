@@ -1,11 +1,11 @@
 "use client";
 
-// import type { Metadata } from "next";
+import type { Metadata } from "next";
 import { FormEvent, useEffect, useMemo, useState } from "react";
 
-// export const metadata: Metadata = {
-//   title: "Issues",
-// };
+export const metadata: Metadata = {
+  title: "Issues",
+};
 
 type IssueStatus = "open" | "closed";
 
